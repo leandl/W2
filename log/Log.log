@@ -1,0 +1,84 @@
+
+[1;32m22/03/2020 09:23:00 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: PUT /api-test/add[0m
+[1;32m22/03/2020 09:24:12 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: PUT /api-test/add[0m
+[1;32m22/03/2020 09:25:12 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: PUT /api-test/add[0m
+[1;32m22/03/2020 09:25:46 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: PUT /api-test/add[0m
+[1;32m22/03/2020 09:26:05 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: PUT /api-test/add[0m
+[1;32m22/03/2020 09:26:39 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: PUT /api-test/add[0m
+[1;32m22/03/2020 09:27:08 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: PUT /api-test/add[0m
+[1;32m22/03/2020 09:27:55 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: PUT /api-test/add[0m
+[1;32m22/03/2020 09:28:51 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: GET /api-test/add[0m
+[1;32m22/03/2020 09:31:28 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: POST /api-test/add[0m
+[1;31m22/03/2020 09:31:28 |  ERROR  | (/core/model/Connection.php) => Database error: SQLSTATE[HY000] [1049] Unknown database 'test_w2s'[0m
+[1;32m22/03/2020 09:31:28 |  DEBUG  | (/core/model/Model.php) => Query: [INSERT INTO `test_W2` (`name`,`email`) VALUES (:name,:email)][0m
+[1;32m22/03/2020 09:32:58 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: POST /api-test/add[0m
+[1;31m22/03/2020 09:32:58 |  ERROR  | (/core/model/Connection.php) => Database error: SQLSTATE[HY000] [1049] Unknown database 'test_w2s'[0m
+[1;32m22/03/2020 09:32:58 |  DEBUG  | (/core/model/Model.php) => Query: [INSERT INTO `test_W2` (`name`,`email`) VALUES (:name,:email)][0m
+[1;32m22/03/2020 09:33:01 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: POST /api-test/add[0m
+[1;31m22/03/2020 09:33:01 |  ERROR  | (/core/model/Connection.php) => Database error: SQLSTATE[HY000] [1049] Unknown database 'test_w2s'[0m
+[1;32m22/03/2020 09:33:01 |  DEBUG  | (/core/model/Model.php) => Query: [INSERT INTO `test_W2` (`name`,`email`) VALUES (:name,:email)][0m
+[1;32m22/03/2020 09:34:41 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: POST /api-test/add[0m
+[1;36m22/03/2020 09:34:41 |  INFOR  | (/core/model/Connection.php) => Banco Conectado![0m
+[1;32m22/03/2020 09:34:41 |  DEBUG  | (/core/model/Model.php) => Query: [INSERT INTO `test_W2` (`name`,`email`) VALUES (:name,:email)][0m
+[1;32m22/03/2020 09:35:39 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: POST /api-test/add[0m
+[1;36m22/03/2020 09:35:39 |  INFOR  | (/core/model/Connection.php) => Banco Conectado![0m
+[1;32m22/03/2020 09:35:39 |  DEBUG  | (/core/model/Model.php) => Query: [INSERT INTO `user` (`name`,`email`) VALUES (:name,:email)][0m
+[1;32m22/03/2020 09:38:32 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: POST /api-test/add[0m
+[1;36m22/03/2020 09:38:32 |  INFOR  | (/core/model/Connection.php) => Banco Conectado![0m
+[1;32m22/03/2020 09:38:32 |  DEBUG  | (/core/log/Log.php) => Array
+(
+    [$data] => Array
+        (
+            [name] => 
+            [email] => 
+        )
+
+)
+[0m
+[1;32m22/03/2020 09:38:32 |  DEBUG  | (/core/model/Model.php) => Query: [INSERT INTO `user` (`name`,`email`) VALUES (:name,:email)][0m
+[1;32m22/03/2020 09:40:40 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: POST /api-test/add[0m
+[1;36m22/03/2020 09:40:40 |  INFOR  | (/core/model/Connection.php) => Banco Conectado![0m
+[1;32m22/03/2020 09:40:40 |  DEBUG  | (/core/model/Model.php) => Query: [INSERT INTO `user` (`name`,`email`) VALUES (:name,:email)][0m
+[1;32m22/03/2020 09:45:31 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: POST /api-test/add[0m
+[1;36m22/03/2020 09:45:31 |  INFOR  | (/core/model/Connection.php) => Banco Conectado![0m
+[1;32m22/03/2020 09:45:31 |  DEBUG  | (/core/model/Model.php) => Query: [INSERT INTO `user` (`name`,`email`) VALUES (:name,:email)][0m
+[1;32m22/03/2020 10:01:39 |  DEBUG  | (/core/router/Route.php) => Rota que não foi executada: POST /api-test/list[0m
+[1;32m22/03/2020 10:01:46 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: GET /api-test/list[0m
+[1;36m22/03/2020 10:01:46 |  INFOR  | (/core/model/Connection.php) => Banco Conectado![0m
+[1;32m22/03/2020 10:03:06 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: GET /api-test/list[0m
+[1;36m22/03/2020 10:03:06 |  INFOR  | (/core/model/Connection.php) => Banco Conectado![0m
+[1;32m22/03/2020 10:03:06 |  DEBUG  | (/core/model/Model.php) => Query => SELECT * FROM `user`  ORDER BY `id` LIMIT 50[0m
+[1;32m22/03/2020 10:06:06 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: GET /api-test/list[0m
+[1;36m22/03/2020 10:06:06 |  INFOR  | (/core/model/Connection.php) => Banco Conectado![0m
+[1;32m22/03/2020 10:06:06 |  DEBUG  | (/core/model/Model.php) => Query => SELECT * FROM `user`  ORDER BY `id` LIMIT 50[0m
+[1;32m22/03/2020 10:14:29 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: GET /api-test/find/1[0m
+[1;36m22/03/2020 10:14:29 |  INFOR  | (/core/model/Connection.php) => Banco Conectado![0m
+[1;32m22/03/2020 10:14:29 |  DEBUG  | (/core/model/Model.php) => Query => SELECT * FROM `user` WHERE `id` = :639d7d715c4e1de64df8a4602d65c563  ORDER BY `id` LIMIT 50[0m
+[1;32m22/03/2020 10:14:42 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: GET /api-test/find/leandro[0m
+[1;36m22/03/2020 10:14:42 |  INFOR  | (/core/model/Connection.php) => Banco Conectado![0m
+[1;32m22/03/2020 10:14:42 |  DEBUG  | (/core/model/Model.php) => Query => SELECT * FROM `user` WHERE `name` = :f43b410b92f21b68189329b9d390c686  ORDER BY `id` LIMIT 50[0m
+[1;32m22/03/2020 19:11:39 |  DEBUG  | (/core/router/Route.php) => Rota que não foi executada: GET /api-test/delete/1[0m
+[1;32m22/03/2020 19:11:47 |  DEBUG  | (/core/router/Route.php) => Rota que não foi executada: DELETE /api-test/delete/1[0m
+[1;32m22/03/2020 19:12:38 |  DEBUG  | (/core/router/Route.php) => Rota que não foi executada: DELETE /api-test/delete/1[0m
+[1;32m22/03/2020 19:12:56 |  DEBUG  | (/core/router/Route.php) => Rota que não foi executada: DELETE /auth/login[0m
+[1;32m22/03/2020 19:13:06 |  DEBUG  | (/core/router/Route.php) => Rota que não foi executada: DELETE /auth/status[0m
+[1;32m22/03/2020 19:13:22 |  DEBUG  | (/core/router/Route.php) => Rota que não foi executada: DELETE /api-test/delete/1[0m
+[1;32m22/03/2020 19:13:34 |  DEBUG  | (/core/router/Route.php) => Rota que não foi executada: DELETE /auth/login[0m
+[1;32m22/03/2020 19:13:37 |  DEBUG  | (/core/router/Route.php) => Rota que não foi executada: DELETE /auth/login[0m
+[1;32m22/03/2020 19:13:38 |  DEBUG  | (/core/router/Route.php) => Rota que não foi executada: DELETE /auth/login[0m
+[1;32m22/03/2020 19:13:53 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: POST /auth/login[0m
+[1;32m22/03/2020 19:13:53 |  DEBUG  | (/core/auth/Auth.php) => Setado usuario Admin[0m
+[1;32m22/03/2020 19:14:07 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: GET /auth/status[0m
+[1;32m22/03/2020 19:14:57 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: DELETE /api-test/delete/1[0m
+[1;32m22/03/2020 19:15:42 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: DELETE /api-test/delete/1[0m
+[1;36m22/03/2020 19:15:42 |  INFOR  | (/core/model/Connection.php) => Banco Conectado![0m
+[1;32m22/03/2020 19:15:42 |  DEBUG  | (/core/log/Log.php) => Query: DELETE FROM `user` WHERE `id`=:id[0m
+[1;32m22/03/2020 19:15:55 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: GET /api-test/list[0m
+[1;36m22/03/2020 19:15:55 |  INFOR  | (/core/model/Connection.php) => Banco Conectado![0m
+[1;32m22/03/2020 19:15:55 |  DEBUG  | (/core/model/Model.php) => Query => SELECT * FROM `user`  ORDER BY `id` LIMIT 50[0m
+[1;32m22/03/2020 19:27:39 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: GET /api-test/list[0m
+[1;36m22/03/2020 19:27:39 |  INFOR  | (/core/model/Connection.php) => Banco Conectado![0m
+[1;32m22/03/2020 19:27:39 |  DEBUG  | (/core/model/Model.php) => Query => SELECT * FROM `user`  ORDER BY `id` LIMIT 50[0m
+[1;32m22/03/2020 19:28:03 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: DELETE /api-test/delete/1[0m
+[1;36m22/03/2020 19:28:03 |  INFOR  | (/core/model/Connection.php) => Banco Conectado![0m
+[1;32m22/03/2020 19:29:12 |  DEBUG  | (/core/router/Route.php) => Rota a se executada: DELETE /api-test/delete/1[0m
