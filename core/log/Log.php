@@ -74,7 +74,7 @@
 			if(self::$nivel>=$nivel){
 
 				$arrayTreeFile = debug_backtrace();
-				$fileExecut = str_replace(DIR, '', $arrayTreeFile[0]['file']);
+				$fileExecut = str_replace(DIR, '', $arrayTreeFile[$fileCall]['file']);
 				$fileExecut = str_replace('\\', '/', $fileExecut);
 
 				$color = self::colorNivel($nivel);
