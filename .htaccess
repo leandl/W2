@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+	
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	IndexIgnore .htaccess *.php
+	RewriteRule ^(.*)$ index.php?url_router=/$1 [QSA]
+</IfModule>
