@@ -2,9 +2,12 @@
 
 $router->group(null);
 $router->get('/test', function($req, $res){
-    $res->status(401)->json([
-        1,2,3
-    ]);
+    Log::memoryInUse();
+    $res
+        ->status(401)
+        ->json([
+            1,2,3
+        ]);
 });
 
 Import::router([
@@ -13,8 +16,10 @@ Import::router([
 ]);
 
 $router->error(function($req, $res){
-    $res->status($req->status)->json([
-        'err' => $req->status,
-        'url' => URL
-    ]);
+    $res
+        ->status($req->status)
+        ->json([
+            'err' => 'router not found',
+            'url' => URL
+        ]);
 });
